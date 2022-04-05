@@ -1,0 +1,35 @@
+.CreateTodoButton {
+    background-color: hsl(50, 75%, 55%);
+    box-shadow: -4px 5px 25px rgba(219, 153, 87, 30%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+  }
+  
+  .CreateTodoButton:hover {
+    transform: rotate(224deg);
+  }
+  @media (min-width: 720px) {   
+  .CreateTodoButton {
+    bottom: 71px;
+    margin: 0 auto;
+  }
+  .CreateTodoButton {
+    height: 100px;
+    width: 100px;
+  }
+}

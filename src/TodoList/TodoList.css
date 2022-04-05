@@ -1,0 +1,17 @@
+ul {
+    margin: 0;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+  }
+
+  section {
+    height: 21rem;
+    overflow-y: scroll;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  section::-webkit-scrollbar {
+    background: #D6E2F0;
+    background-color: transparent;
+  }
