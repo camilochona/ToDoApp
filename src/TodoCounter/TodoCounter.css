@@ -72,3 +72,14 @@ h1 span:nth-child(14){ animation-delay:.65s; }
         margin: 0 20px;
     }
 }
+@media (min-width: 320px) {
+    .counter_1 {
+        margin-right: 20px;
+    }
+    .counter_2 {
+        margin: 0 20px;
+    }
+    .counter_3 {
+        margin: 0 40px;
+    }
+}
